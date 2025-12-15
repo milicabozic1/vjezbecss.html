@@ -1,0 +1,95 @@
+body {
+    background-color: #ffffff;      /* svijetla pozadina */
+    font-family: Arial, sans-serif; /* Arial font */
+    margin: 0;                      /* bez margina */
+}
+
+/* HEADER */
+.header {
+    display: flex;                  /* flex raspored */
+    justify-content: space-between; /* prvi i posljednji uz ivice */
+    align-items: center;            /* vertikalno poravnanje */
+    background-color: #f6f6f6;      /* pozadina zaglavlja */
+    padding: 12px 20px;             /* unutrašnje margine */
+    border-bottom: 1px solid #ccc;  /* donja ivica */
+}
+
+.header .logo {
+    font-size: 26px;                /* veličina fonta */
+    font-weight: bold;              /* boldirano */
+}
+
+.header input {
+    padding: 6px;                   /* unutrašnje margine */
+    width: 200px;                   /* širina polja */
+}
+
+/* LAYOUT KONTEJNER */
+.container {
+    display: flex;                  /* elementi u redu */
+    padding: 20px;                  /* unutrašnje margine */
+    gap: 20px;                      /* razmak između kolona */
+}
+
+/* SIDEBAR */
+.sidebar {
+    width: 180px;                   /* širina sidebar-a */
+    border-right: 1px solid #ccc;   /* desna ivica */
+    padding-right: 10px;            /* desni padding */
+}
+
+.sidebar h3 {
+    font-size: 18px;                /* veličina fonta */
+    margin-top: 0;                  /* uklanjanje gornje margine */
+}
+
+.sidebar ul {
+    list-style: none;               /* bez oznaka liste */
+    padding-left: 0;                /* uklonjen lijevi padding */
+    margin: 0;                      /* uklonjene margine */
+}
+
+.sidebar li {
+    padding: 4px 0;       /* unutrašnje margine 4px gore-dole, 0 lijevo-desno */
+    font-size: 15px;      /* veličina fonta */
+}
+
+.main {
+    flex: 2;              /* fleksibilnost glavnog sadržaja */
+}
+
+.main h1 {
+    margin-top: 0;        /* uklanjanje gornje margine */
+    font-size: 32px;      /* veličina fonta */
+}
+
+.infobox {
+    width: 260px;               /* širina bočne kutije */
+    border: 1px solid #ccc;     /* ivica */
+    padding: 10px;              /* unutrašnje margine */
+    height: fit-content;        /* visina da se prilagodi sadržaju */
+}
+
+.infobox img {
+    width: 100%;        /* širina slike */
+    display: block;     /* prikaz slike kao bloka */
+    margin-top: 10px;   /* gornja margina */
+}
+
+.infobox table {
+    width: 100%;             /* širina tabele */
+    border-collapse: collapse; /* spajanje ivica tabele */
+}
+
+.infobox th {
+    text-align: left;    /* poravnanje teksta ulijevo */
+    width: 40%;          /* širina kolone */
+    font-weight: bold;   /* podebljan tekst */
+    padding: 4px;        /* unutrašnje margine */
+    font-size: 14px;     /* veličina fonta */
+}
+
+.infobox td {
+    padding: 4px;        /* unutrašnje margine */
+    font-size: 14px;     /* veličina fonta */
+}
