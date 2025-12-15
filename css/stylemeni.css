@@ -1,0 +1,69 @@
+
+* {
+    box-sizing: border-box;
+}
+
+
+body {
+    font-family: Arial, sans-serif;
+}
+
+
+.meni {
+    margin: 0;
+    padding: 8px 0;
+    width: 250px;
+    border: 1px solid rgba(0,0,0,0.12);
+    list-style: none;
+    background: white;
+    color: rgba(0,0,0,0.87);
+    border-radius: 4px;
+}
+
+
+.meni hr {
+    border: none;
+    border-top: 1px solid rgba(0,0,0,0.12);
+    margin: 6px 0;
+}
+
+
+.meni li {
+    padding: 6px 16px;
+    font-size: 0; /* uklanja razmak između inline elemenata */
+}
+
+
+.meni li:hover {
+    background: rgba(0,0,0,0.12);
+    cursor: pointer;
+}
+
+
+.meni .material-icons {
+    width: 32px;
+}
+
+
+.meni .tekst {
+    display: inline-block;
+    width: 134px;
+}
+
+
+.meni .precica {
+    display: inline-block;
+    width: 50px;
+    text-align: right;
+}
+
+
+.meni span {
+    font-size: 16px;
+}
+
+
+.meni .material-icons,
+.meni .precica {
+    color: rgba(0,0,0,0.54);
+}
