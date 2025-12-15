@@ -1,0 +1,42 @@
+body {
+font-family: Arial, sans-serif;
+}
+
+div {
+width: 300px;
+border: 1px solid #ccc;
+border-radius: 10px;
+box-sizing: border-box;
+}
+
+img {
+width: 100%;
+display: block;
+border-top-left-radius: 10px;
+border-top-right-radius: 10px;
+}
+
+h1,p {
+padding: 10px;
+margin: 0;
+}
+
+p {
+font-size: 18px;
+}
+
+a {
+display: inline-block;
+width: 200px;
+text-align: center;
+background-color: #1e73ff;
+color: white;
+padding: 20px;
+border-radius: 8px;
+text-decoration: none;
+margin: 10px;
+}
+
+a:hover {
+background-color: #1458c8;
+}
